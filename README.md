@@ -1,51 +1,84 @@
-# React + TypeScript + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio website built with React, TypeScript, Tailwind CSS, and Vite. It showcases my projects, skills, and experiences in a modern, responsive design.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React: A JavaScript library for building user interfaces
+- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript
+- Tailwind CSS: A utility-first CSS framework for rapidly building custom designs
+- Vite: A build tool that aims to provide a faster and leaner development experience for modern web projects
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Responsive design that looks great on desktop and mobile
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### Prerequisites
+
+Make sure you have Node.js (version 14 or later) and pnpm installed on your machine.
+
+If you don't have pnpm installed, you can install it by running:
+
+```
+npm install -g pnpm
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Installation
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Clone the repository:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+   ```
+   git clone https://github.com/getparas/personal-portfolio.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```
+   cd personal-portfolio
+   ```
+
+3. Install the dependencies:
+   ```
+   pnpm install
+   ```
+
+### Running the Development Server
+
+To start the development server, run:
+
 ```
-# personal-portfolio
+pnpm dev
+```
+
+This will start the Vite development server. Open your browser and navigate to `http://localhost:5173` to view your portfolio.
+
+### Building for Production
+
+To create a production build, run:
+
+```
+pnpm build
+```
+
+This will generate optimized files in the `dist` directory.
+
+### Previewing the Production Build
+
+To preview the production build locally, run:
+
+```
+pnpm preview
+```
+
+## Customization
+
+- Update the content in the `src/data` directory to reflect your personal information, projects, and skills.
+- Modify the components in the `src/components` directory to change the layout or add new sections.
+- Adjust the Tailwind CSS classes in your components to customize the look and feel of your portfolio.
+- Extend the Tailwind configuration in `tailwind.config.js` to add custom colors, fonts, or other design tokens.
+
+## Deployment
+
+This project can be easily deployed to platforms like Vercel, Netlify, or GitHub Pages. Refer to their respective documentation for detailed deployment instructions.
