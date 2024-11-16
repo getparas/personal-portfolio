@@ -1,0 +1,12 @@
+export { default as Logo } from "@/assets/icons/logo.svg";
+export { default as DownloadIcon } from "@/assets/icons/download.svg";
+export { default as SmallLogo } from "@/assets/icons/logoSm.svg";
+export { default as HeroImage } from "@/assets/images/HeroImage.svg";
+export { default as LogoOne } from "@/assets/icons/logo-1.svg";
+export { default as LogoTwo } from "@/assets/icons/logo-2.svg";
+export { default as LogoThree } from "@/assets/icons/logo-3.svg";
+export { default as LogoFive } from "@/assets/icons/logo-5.svg";
+export { default as LogoSix } from "@/assets/icons/logo-6.svg";
+export { default as AboutImage } from "@/assets/images/AboutImage.svg";
+export { default as SkillsImage } from "@/assets/images/front-development.svg";
+export { default as SkillsImageBlue } from "@/assets/images/front-development-blue.svg";
