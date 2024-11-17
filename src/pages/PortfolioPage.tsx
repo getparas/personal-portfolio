@@ -1,6 +1,7 @@
 import About from "@/components/Layout/About";
 import Hero from "@/components/Layout/Hero";
 import Navbar from "@/components/Layout/NavBar";
+import Projects from "@/components/Layout/Project";
 import Service from "@/components/Layout/Service";
 import Software from "@/components/Layout/Software";
 
@@ -13,6 +14,7 @@ export default function PortfolioPage() {
         <Software />
         <About />
         <Service />
+        <Projects />
       </div>
     </main>
   );
