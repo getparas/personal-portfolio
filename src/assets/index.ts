@@ -16,3 +16,8 @@ export { default as PreviewThree } from "@/assets/images/preview4.svg";
 export { default as PreviewFour } from "@/assets/images/preview4.svg";
 export { default as PreviewFive } from "@/assets/images/preview5.svg";
 export { default as PreviewSix } from "@/assets/images/preview6.svg";
+export { default as TestimonialOne } from "@/assets/images/testimonial1.jpeg";
+export { default as TestimonialTwo } from "@/assets/images/testimonial2.jpeg";
+export { default as TestimonialThree } from "@/assets/images/testimonial3.jpeg";
+export { default as TestimonialFour } from "@/assets/images/testimonial4.jpeg";
+export { default as TestimonialFive } from "@/assets/images/testimonial5.jpeg";

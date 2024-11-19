@@ -1,5 +1,3 @@
-"use client";
-
 import { SkillsImage, SkillsImageBlue } from "@/assets";
 import { services } from "@/constants";
 import { cn } from "@/utils/cn";
