@@ -4,6 +4,7 @@ import Navbar from "@/components/Layout/NavBar";
 import Projects from "@/components/Layout/Project";
 import Service from "@/components/Layout/Service";
 import Software from "@/components/Layout/Software";
+import Testimonials from "@/components/Layout/Testimonial";
 
 export default function PortfolioPage() {
   return (
@@ -15,6 +16,7 @@ export default function PortfolioPage() {
         <About />
         <Service />
         <Projects />
+        <Testimonials />
       </div>
     </main>
   );
