@@ -1,4 +1,5 @@
 import About from "@/components/Layout/About";
+import ContactMe from "@/components/Layout/Contact";
 import Hero from "@/components/Layout/Hero";
 import Navbar from "@/components/Layout/NavBar";
 import Projects from "@/components/Layout/Project";
@@ -12,12 +13,15 @@ export default function PortfolioPage() {
       <div className="container relative z-10 mx-auto">
         <Navbar />
         <Hero />
-        <Software />
+      </div>
+      <Software />
+      <div className="container relative z-10 mx-auto">
         <About />
         <Service />
         <Projects />
         <Testimonials />
       </div>
+      <ContactMe />
     </main>
   );
 }
