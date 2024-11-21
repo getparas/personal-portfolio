@@ -1,4 +1,5 @@
 export { default as Logo } from "@/assets/icons/logo.svg";
+export { default as LogoSecondary } from "@/assets/icons/logoSecondary.svg";
 export { default as DownloadIcon } from "@/assets/icons/download.svg";
 export { default as SmallLogo } from "@/assets/icons/logoSm.svg";
 export { default as HeroImage } from "@/assets/images/HeroImage.svg";
@@ -21,3 +22,7 @@ export { default as TestimonialTwo } from "@/assets/images/testimonial2.jpeg";
 export { default as TestimonialThree } from "@/assets/images/testimonial3.jpeg";
 export { default as TestimonialFour } from "@/assets/images/testimonial4.jpeg";
 export { default as TestimonialFive } from "@/assets/images/testimonial5.jpeg";
+export { default as Facebook } from "@/assets/icons/facebook.svg";
+export { default as Twitter } from "@/assets/icons/twitter.svg";
+export { default as Linkedin } from "@/assets/icons/linkedin.svg";
+export { default as Email } from "@/assets/icons/email.svg";
